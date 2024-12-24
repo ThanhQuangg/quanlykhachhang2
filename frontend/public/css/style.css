@@ -1,0 +1,50 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.nav-link {
+    transition: background-color 0.4s ease, color 0.4s ease;
+    /* Smooth transition for both applying and removing */
+}
+
+.nav-link.active {
+    background-color: #007bff !important;
+    color: #fff !important;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    /* Apply same transition for active state */
+}
+
+.collapsed-sidebar {
+    width: 60px !important;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.collapsed-sidebar .nav-link {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.collapsed-sidebar .nav-link i {
+    margin-right: 0 !important;
+}
+
+.collapsed-sidebar .nav-link span {
+    display: none;
+}
+
+.collapsed-sidebar h5 {
+    display: none;
+}
+
+
+.th {
+    white-space: nowrap; /* Ngăn tiêu đề bị xuống dòng */
+    text-align: center;
+}
